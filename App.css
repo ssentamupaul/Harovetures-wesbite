@@ -1,0 +1,116 @@
+
+body {
+                    background-image: url('../src/img/home.jpg');
+                    background-size: cover; /* Make the image cover the entire screen */
+                    background-attachment: fixed; /* Keep the image fixed in place */
+                  }
+                      
+.navbar{
+                    background-color: rgba(240, 248, 255, 0.466);
+}
+.Logo{
+                    height: 70px;
+}
+.home-text{
+                    letter-spacing: 5px;
+                    margin-top: 10%;
+}
+.home-text h1 {
+                    font-size: 90px;
+                  }
+                  
+                  @media screen and (max-width: 768px) {
+                    .home-text h1 {
+                      font-size: 60px;
+                    }
+                  }
+                  
+                  @media screen and (max-width: 480px) {
+                    .home-text h1 {
+                      font-size: 40px;
+                    }
+                  }
+
+                .numberz{
+                  background-color: rgba(45, 159, 247, 0.99);
+                }
+                .card-line {
+                  border: 10px;
+                  border-top: 10px solid #000000;
+                  margin: 10px 0;
+                }
+                @media only screen and (max-width: 600px) {
+                  h1 {
+                    font-size: 3rem;
+                  }
+                }
+              
+                @media only screen and (max-width: 400px) {
+                  h1 {
+                    font-size: 2rem;
+                  }
+                }
+                @media (min-width: 576px) {
+                  .font-size-large {
+                    font-size: 1.5rem;
+                  }
+                }
+                
+                @media (min-width: 768px) {
+                  .font-size-large {
+                    font-size: 1.8rem;
+                  }
+                }
+                
+                @media (min-width: 992px) {
+                  .font-size-large {
+                    font-size: 2rem;
+                  }
+                }
+                
+                @media (min-width: 1200px) {
+                  .font-size-large {
+                    font-size: 2.2rem;
+                  }
+                }
+                
+                .btn-rounded {
+                  width: 100%;
+                  max-width: 400px;
+                  margin: 20px auto;
+                }
+                
+                .d-flex {
+                  flex-wrap: wrap;
+                }
+                
+                .mt-3 {
+                  margin-top: 1rem;
+                }
+                
+                @media (min-width: 768px) {
+                  .d-flex {
+                    justify-content: space-between;
+                  }}
+                  .mt-3 {
+                    margin-top: 0;
+                    margin-left: 10px;
+                
+                  }
+              
+              /* Portifolia.css */
+
+/* .card-image {
+  /* width: 1%; set a fixed width for all images */
+  /* height: 3000px; */
+/* } */ 
+.cards-container {
+  margin-bottom: -20px;
+}
+
+.cards-container .col-sm-6, .cards-container .col-md-6, .cards-container .col-lg-4 {
+  padding: 20px;
+}
+p{
+  font-family: sans-serif;
+}
